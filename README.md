@@ -1,15 +1,46 @@
 # Todo List App
 
-This is my simple Todo List app built with React, Vite, Tailwind CSS, and Firebase.
+# 📝 MERN Todo List App with Custom Auth
 
-## Features
-- User authentication (log in and log out).
-- Create, edit, and delete tasks.
-- Profile page with user details (My detail for the time being).
+This is a full-stack **Todo List application** built with the MERN stack (MongoDB, Express, React, Node.js), featuring a custom-built authentication system using **JWT tokens** instead of Firebase.
 
-## Setup
+---
 
-### 1. Clone the Repository
-Run the following command to clone the repository:
-```bash
-git clone https://github.com/your-username/todo-list-app.git
+## 🚀 Features
+
+- ✅ User Registration & Login (JWT-based)
+- ✅ Secure authentication using token-based middleware
+- ✅ Add, update, and delete personal todos
+- ✅ Todos are **user-specific** (no shared lists)
+- ✅ Protected frontend routes for logged-in users only
+- ✅ Built with Vite for fast frontend dev experience
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Tech                       |
+|------------|----------------------------|
+| Frontend    | React + Vite, Axios        |
+| Backend     | Node.js, Express.js        |
+| Database    | MongoDB (Mongoose)         |
+| Auth        | JSON Web Tokens (JWT)      |
+
+---
+
+## 🗂 Folder Structure
+.
+├── backend
+│ ├── controllers
+│ ├── routes
+│ ├── models
+│ ├── middleware
+│ ├── config
+│ └── server.js
+│
+├── frontend
+│ ├── components
+│ ├── pages
+│ ├── context
+│ ├── App.jsx
+│ └── main.jsx
