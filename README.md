@@ -44,7 +44,7 @@ This is a full-stack **Todo List application** built with the MERN stack (MongoD
 
 ### 💻 Frontend
 
-1. `cd frontend`
+1. `cd frontend` (I just open a new Bash Terminal)
 2. `npm install`
 3. Run: `npm run dev`
 
